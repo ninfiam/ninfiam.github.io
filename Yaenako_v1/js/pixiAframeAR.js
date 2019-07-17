@@ -9,7 +9,7 @@ window.onload = function () {
 	//画面の回転フラグ
 	var orientationchanged = false;
 	//マーカーに対しての直立フラグ
-	var stand_mode = true;
+	var stand_mode = false;
 
 	var models = [];
 	var app = new PIXI.Application(0, 0, { transparent: true });
@@ -140,8 +140,8 @@ window.onload = function () {
 		var plane = document.createElement('a-plane');
 		plane.setAttribute('plane', '');
 		plane.setAttribute('color', '#000');
-		plane.setAttribute('height', '8');
-		plane.setAttribute('width', '8');
+		plane.setAttribute('height', '7');
+		plane.setAttribute('width', '7');
 		//マーカーを基準にしたモデルの相対位置
 		plane.setAttribute('position', '0 0 0');
 		var stand = stand_mode ? '0 0 0' : '-90 0 0';

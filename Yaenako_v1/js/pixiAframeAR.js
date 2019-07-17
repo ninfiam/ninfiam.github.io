@@ -6,9 +6,9 @@ window.onload = function () {
 	if(!camera){ camera = document.querySelector("a-marker-camera"); }
 	camera = camera.components.camera.camera;
 
-	//ç”»é¢ã®å›è»¢ãƒ•ãƒ©ã‚°
+	//‰æ–Ê‚Ì‰ñ“]ƒtƒ‰ƒO
 	var orientationchanged = false;
-	//ãƒãƒ¼ã‚«ãƒ¼ã«å¯¾ã—ã¦ã®ç›´ç«‹ãƒ•ãƒ©ã‚°
+	//ƒ}[ƒJ[‚É‘Î‚µ‚Ä‚Ì’¼—§ƒtƒ‰ƒO
 	var stand_mode = false;
 
 	var models = [];
@@ -16,11 +16,11 @@ window.onload = function () {
 	loadAssets().then(addModel).then(addPlane);
 
 	function loadAssets() {
-		//ãƒ¢ãƒ¼ã‚·ãƒ§ãƒ³ã®è¨­å®š
+		//ƒ‚[ƒVƒ‡ƒ“‚Ìİ’è
 		function setMotion(model, resources, x, y, resolve, reject){
 			if (model == null){ reject(); }
 
-			//åŸºæœ¬ãƒ¢ãƒ¼ã‚·ãƒ§ãƒ³
+			//Šî–{ƒ‚[ƒVƒ‡ƒ“
 			var motions = [];
 			var animation = LIVE2DCUBISMFRAMEWORK.Animation;
 			var override = LIVE2DCUBISMFRAMEWORK.BuiltinAnimationBlenders.OVERRIDE;
@@ -34,22 +34,22 @@ window.onload = function () {
 //			motions.push(animation.fromMotion3Json(resources['motion9'].data));
 			model.motions = motions;
 			model.animator.addLayer("motion", override, 1);
-			//ãƒ©ãƒ³ãƒ€ãƒ ã§ãƒ¢ãƒ¼ã‚·ãƒ§ãƒ³å†ç”Ÿ
+			//ƒ‰ƒ“ƒ_ƒ€‚Åƒ‚[ƒVƒ‡ƒ“Ä¶
 			var rand = Math.floor(Math.random() * model.motions.length);
 			model.animator.getLayer("motion").play(model.motions[rand]);
 
-			//ã‚¯ãƒªãƒƒã‚¯ãƒ¢ãƒ¼ã‚·ãƒ§ãƒ³
+			//ƒNƒŠƒbƒNƒ‚[ƒVƒ‡ƒ“
 			var data = resources['motion1'].data;
 			model.click_motion = animation.fromMotion3Json(data);
 
-			//è¦–ç·šè¿½å¾“ãƒ¢ãƒ¼ã‚·ãƒ§ãƒ³
+			//‹ü’Ç]ƒ‚[ƒVƒ‡ƒ“
 			data.CurveCount = data.TotalPointCount = data.TotalSegmentCount = 0;
 			data.Curves = [];
 			var gaze_motion = animation.fromMotion3Json(data);
 			model.animator.addLayer("gaze", override, 1);
 			model.animator.getLayer("gaze").play(gaze_motion);
 
-			//è¦–ç·šè¿½å¾“ãƒ¢ãƒ¼ã‚·ãƒ§ãƒ³ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿å€¤æ›´æ–°
+			//‹ü’Ç]ƒ‚[ƒVƒ‡ƒ“‚Ìƒpƒ‰ƒ[ƒ^’lXV
 			model.gaze = new THREE.Vector3();
 			var ids = model.parameters.ids;
 			var angle_x = Math.max(ids.indexOf("ParamAngleX"), ids.indexOf("PARAM_ANGLE_X"));
@@ -71,14 +71,14 @@ window.onload = function () {
 				values[eye_y] = blend(values[eye_y], model.gaze.y * eye_v, 0, weight);
 			}
 
-			//ã‚­ãƒ£ãƒ³ãƒã‚¹å†…ã®ãƒ¢ãƒ‡ãƒ«ã®ä½ç½®
+			//ƒLƒƒƒ“ƒoƒX“à‚Ìƒ‚ƒfƒ‹‚ÌˆÊ’u
 			model.pos_x = x;
 			model.pos_y = y;
 
 			models.push(model);
 			resolve();
 		}
-		//ã‚¢ã‚»ãƒƒãƒˆã®èª­ã¿è¾¼ã¿
+		//ƒAƒZƒbƒg‚Ì“Ç‚İ‚İ
 		var xhrType = { xhrType: PIXI.loaders.Resource.XHR_RESPONSE_TYPE.JSON };
 		var p1 = new Promise(function (resolve, reject) {
 			var loader = new PIXI.loaders.Loader();
@@ -119,7 +119,7 @@ window.onload = function () {
 */		return Promise.all([p1/*, p2*/]);
 	}
 	function addModel() {
-		//ãƒ¢ãƒ‡ãƒ«ã®ç™»éŒ²
+		//ƒ‚ƒfƒ‹‚Ì“o˜^
 		var p = new Promise(function (resolve, reject) {
 			models.forEach(function(model){
 				app.stage.addChild(model);
@@ -140,10 +140,10 @@ window.onload = function () {
 		var plane = document.createElement('a-plane');
 		plane.setAttribute('plane', '');
 		plane.setAttribute('color', '#000');
-		plane.setAttribute('height', '2');
-		plane.setAttribute('width', '2');
-		//ãƒãƒ¼ã‚«ãƒ¼ã‚’åŸºæº–ã«ã—ãŸãƒ¢ãƒ‡ãƒ«ã®ç›¸å¯¾ä½ç½®
-		plane.setAttribute('position', '0 0 0');
+		plane.setAttribute('height', '3');
+		plane.setAttribute('width', '3');
+		//ƒ}[ƒJ[‚ğŠî€‚É‚µ‚½ƒ‚ƒfƒ‹‚Ì‘Š‘ÎˆÊ’u
+		plane.setAttribute('position', '5 0 0');
 		var stand = stand_mode ? '0 0 0' : '-90 0 0';
 		plane.setAttribute('rotation', stand);
 		marker.appendChild(plane);
@@ -183,7 +183,7 @@ window.onload = function () {
 			},
 			tick: function (time, timeDelta) {
 				if(marker.object3D.visible){
-					//ç”»é¢ãŒå›è»¢ã—ãŸç›´å¾Œï¼ˆï¼ãƒ¢ãƒ‡ãƒ«ã®è¡¨ç¤ºä½ç½®ãŒãšã‚Œã¦ã„ã‚‹ï¼‰ã§ãªã„ãªã‚‰æç”»ã™ã‚‹
+					//‰æ–Ê‚ª‰ñ“]‚µ‚½’¼Œãiƒ‚ƒfƒ‹‚Ì•\¦ˆÊ’u‚ª‚¸‚ê‚Ä‚¢‚éj‚Å‚È‚¢‚È‚ç•`‰æ‚·‚é
 					if(!orientationchanged){ app.stage.renderable = true; }
 					mesh.material.map.needsUpdate = true;
 
@@ -191,10 +191,10 @@ window.onload = function () {
 					var gaze = plane.object3D.front.getWorldPosition();
 					gaze.sub(pos);
 					models.forEach(function(model){ 
-						//è¦–ç·šè¿½å¾“ãƒ¢ãƒ¼ã‚·ãƒ§ãƒ³ã®æ›´æ–°
+						//‹ü’Ç]ƒ‚[ƒVƒ‡ƒ“‚ÌXV
 						model.gaze = gaze;
 
-						//ãƒ©ãƒ³ãƒ€ãƒ ã§ãƒ¢ãƒ¼ã‚·ãƒ§ãƒ³å†ç”Ÿ
+						//ƒ‰ƒ“ƒ_ƒ€‚Åƒ‚[ƒVƒ‡ƒ“Ä¶
 						var motion = model.animator.getLayer("motion");
 						if(motion && motion.currentTime >= motion.currentAnimation.duration){
 							var rand = Math.floor(Math.random() * model.motions.length);
@@ -203,10 +203,10 @@ window.onload = function () {
 						}
 					});
 				}else{
-					//ãƒãƒ¼ã‚«ãƒ¼ãŒå¤–ã‚ŒãŸã‚‰æç”»ã‚’æ­¢ã‚ã‚‹
+					//ƒ}[ƒJ[‚ªŠO‚ê‚½‚ç•`‰æ‚ğ~‚ß‚é
 					app.stage.renderable = false;
-					//ãƒãƒ¼ã‚«ãƒ¼ãŒå¤–ã‚ŒãŸã‚‰ç”»é¢ã®å›è»¢ãƒ•ãƒ©ã‚°ã‚’æŠ˜ã‚‹
-					//â†’ãƒãƒ¼ã‚«ãƒ¼ã®å†æ¤œå‡ºæ™‚ã«ãƒ¢ãƒ‡ãƒ«ã®è¡¨ç¤ºä½ç½®ãŒä¿®æ­£ã•ã‚Œã‚‹ãŸã‚
+					//ƒ}[ƒJ[‚ªŠO‚ê‚½‚ç‰æ–Ê‚Ì‰ñ“]ƒtƒ‰ƒO‚ğÜ‚é
+					//¨ƒ}[ƒJ[‚ÌÄŒŸo‚Éƒ‚ƒfƒ‹‚Ì•\¦ˆÊ’u‚ªC³‚³‚ê‚é‚½‚ß
 					orientationchanged = false;
 				}
 			}
@@ -214,7 +214,7 @@ window.onload = function () {
 	}
 
 	var click_event = function (e) {
-		//ã‚¯ãƒªãƒƒã‚¯ãƒ¢ãƒ¼ã‚·ãƒ§ãƒ³ã®å†ç”Ÿ
+		//ƒNƒŠƒbƒNƒ‚[ƒVƒ‡ƒ“‚ÌÄ¶
 		models.forEach(function(model){ 
 			var motion = model.animator.getLayer("motion");
 			if(motion && model.click_motion){
@@ -223,7 +223,7 @@ window.onload = function () {
 			}
 		});
 	}
-	//PCã¨ã‚¹ãƒãƒ›ã®é¸æŠã‚¤ãƒ™ãƒ³ãƒˆã®æŒ¯ã‚Šåˆ†ã‘
+	//PC‚ÆƒXƒ}ƒz‚Ì‘I‘ğƒCƒxƒ“ƒg‚ÌU‚è•ª‚¯
 	if(window.ontouchstart === undefined){
 		window.onclick = click_event;
 	}else{
@@ -231,14 +231,14 @@ window.onload = function () {
 	}
 	window.onorientationchange = function (e) {
 		if (e === void 0) { e = null; }
-		//ç”»é¢ãŒå›è»¢ã™ã‚‹ã¨ãƒ¢ãƒ‡ãƒ«ã®è¡¨ç¤ºä½ç½®ãŒãšã‚Œã‚‹ãŸã‚æç”»ã‚’æ­¢ã‚ã‚‹
+		//‰æ–Ê‚ª‰ñ“]‚·‚é‚Æƒ‚ƒfƒ‹‚Ì•\¦ˆÊ’u‚ª‚¸‚ê‚é‚½‚ß•`‰æ‚ğ~‚ß‚é
 		app.stage.renderable = false;
-		//ç”»é¢ã®å›è»¢ãƒ•ãƒ©ã‚°ã‚’ç«‹ã¦ã‚‹
+		//‰æ–Ê‚Ì‰ñ“]ƒtƒ‰ƒO‚ğ—§‚Ä‚é
 		orientationchanged = true;
 	}
 };
 /*
-//FPSã®è¡¨ç¤º
+//FPS‚Ì•\¦
 var script = document.createElement('script');
 script.onload=function(){
 	var stats = new Stats();

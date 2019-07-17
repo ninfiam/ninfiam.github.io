@@ -1,0 +1,26 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Yaenako_v1.moc3",
+		"Textures": [
+			"Yaenako_v1.512/texture_00.png"
+		],
+		"Physics": "Yaenako_v1.physics3.json",
+		"DisplayInfo": "Yaenako_v1.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	]
+}

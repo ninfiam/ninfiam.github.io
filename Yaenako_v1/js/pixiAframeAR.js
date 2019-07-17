@@ -140,16 +140,16 @@ window.onload = function () {
 		var plane = document.createElement('a-plane');
 		plane.setAttribute('plane', '');
 		plane.setAttribute('color', '#000');
-		plane.setAttribute('height', '7');
-		plane.setAttribute('width', '7');
+		plane.setAttribute('height', '5');
+		plane.setAttribute('width', '5');
 		//マーカーを基準にしたモデルの相対位置
-		plane.setAttribute('position', '0 50 0');
+		plane.setAttribute('position', '0 200 0');
 		var stand = stand_mode ? '0 0 0' : '-90 0 0';
 		plane.setAttribute('rotation', stand);
 		marker.appendChild(plane);
 
 		plane.object3D.front = new THREE.Object3D();
-		plane.object3D.front.position.set(0, 0, -1);
+		plane.object3D.front.position.set(0, 0, 0);
 		plane.object3D.add(plane.object3D.front);
 
 		var texture = new THREE.Texture(app.view);

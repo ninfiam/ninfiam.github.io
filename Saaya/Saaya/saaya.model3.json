@@ -1,0 +1,22 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "saaya (buat live2d).moc3",
+		"Textures": [
+			"saaya (buat live2d).1024/texture_00.png"
+		],
+		"DisplayInfo": "saaya (buat live2d).cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	]
+}

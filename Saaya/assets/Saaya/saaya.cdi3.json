@@ -1,0 +1,410 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "",
+			"Name": "Angle X"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "",
+			"Name": "Angle Y"
+		},
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "",
+			"Name": "Angle Z"
+		},
+		{
+			"Id": "ParamArmL",
+			"GroupId": "",
+			"Name": "ArmL"
+		},
+		{
+			"Id": "ParamArmR",
+			"GroupId": "",
+			"Name": "ArmR"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "",
+			"Name": "EyeL Open"
+		},
+		{
+			"Id": "ParamEyeLSmile",
+			"GroupId": "",
+			"Name": "EyeL Smile"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "",
+			"Name": "EyeR Open"
+		},
+		{
+			"Id": "ParamEyeRSmile",
+			"GroupId": "",
+			"Name": "EyeR Smile"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "",
+			"Name": "Eyeball X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "",
+			"Name": "Eyeball Y"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "",
+			"Name": "BrowL Y"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "",
+			"Name": "BrowR Y"
+		},
+		{
+			"Id": "ParamBrowLX",
+			"GroupId": "",
+			"Name": "BrowL X"
+		},
+		{
+			"Id": "ParamBrowRX",
+			"GroupId": "",
+			"Name": "BrowR X"
+		},
+		{
+			"Id": "ParamBrowLAngle",
+			"GroupId": "",
+			"Name": "BrowL Angle"
+		},
+		{
+			"Id": "ParamBrowRAngle",
+			"GroupId": "",
+			"Name": "BrowR Angle"
+		},
+		{
+			"Id": "ParamBrowLForm",
+			"GroupId": "",
+			"Name": "BrowL Form"
+		},
+		{
+			"Id": "ParamBrowRForm",
+			"GroupId": "",
+			"Name": "BrowR Form"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "",
+			"Name": "Mouth Form"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "Mouth Open"
+		},
+		{
+			"Id": "ParamCheek",
+			"GroupId": "",
+			"Name": "Cheek"
+		},
+		{
+			"Id": "ParamBodyAngleX",
+			"GroupId": "",
+			"Name": "Body X"
+		},
+		{
+			"Id": "ParamBodyAngleY",
+			"GroupId": "",
+			"Name": "Body Y"
+		},
+		{
+			"Id": "ParamBodyAngleZ",
+			"GroupId": "",
+			"Name": "Body Z"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "",
+			"Name": "Breathing"
+		},
+		{
+			"Id": "ParamHairFront",
+			"GroupId": "",
+			"Name": "Hair Move Front"
+		},
+		{
+			"Id": "ParamHairSide",
+			"GroupId": "",
+			"Name": "Hair Move Side"
+		},
+		{
+			"Id": "ParamHairBack",
+			"GroupId": "",
+			"Name": "Hair Move Back"
+		},
+		{
+			"Id": "ParamAnting",
+			"GroupId": "",
+			"Name": "anting"
+		},
+		{
+			"Id": "ParamArm",
+			"GroupId": "",
+			"Name": "ArmL2"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh1",
+			"GroupId": "ParamGroup",
+			"Name": "[0]rambut samping kiri"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_ArtMesh1",
+			"GroupId": "ParamGroup",
+			"Name": "[1]rambut samping kiri"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_ArtMesh1",
+			"GroupId": "ParamGroup",
+			"Name": "[2]rambut samping kiri"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_ArtMesh1",
+			"GroupId": "ParamGroup",
+			"Name": "[3]rambut samping kiri"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_ArtMesh1",
+			"GroupId": "ParamGroup",
+			"Name": "[4]rambut samping kiri"
+		},
+		{
+			"Id": "Param_Angle_Rotation_6_ArtMesh1",
+			"GroupId": "ParamGroup",
+			"Name": "[5]rambut samping kiri"
+		},
+		{
+			"Id": "Param_Angle_Rotation_7_ArtMesh1",
+			"GroupId": "ParamGroup",
+			"Name": "[6]rambut samping kiri"
+		},
+		{
+			"Id": "Param_Angle_Rotation_8_ArtMesh1",
+			"GroupId": "ParamGroup",
+			"Name": "[7]rambut samping kiri"
+		},
+		{
+			"Id": "Param_Angle_Rotation_9_ArtMesh1",
+			"GroupId": "ParamGroup",
+			"Name": "[8]rambut samping kiri"
+		},
+		{
+			"Id": "Param_Angle_Rotation_10_ArtMesh1",
+			"GroupId": "ParamGroup",
+			"Name": "[9]rambut samping kiri"
+		},
+		{
+			"Id": "Param_Angle_Rotation_11_ArtMesh1",
+			"GroupId": "ParamGroup",
+			"Name": "[10]rambut samping kiri"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh2",
+			"GroupId": "ParamGroup2",
+			"Name": "[0]rambut samping kanan"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_ArtMesh2",
+			"GroupId": "ParamGroup2",
+			"Name": "[1]rambut samping kanan"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_ArtMesh2",
+			"GroupId": "ParamGroup2",
+			"Name": "[2]rambut samping kanan"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_ArtMesh2",
+			"GroupId": "ParamGroup2",
+			"Name": "[3]rambut samping kanan"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_ArtMesh2",
+			"GroupId": "ParamGroup2",
+			"Name": "[4]rambut samping kanan"
+		},
+		{
+			"Id": "Param_Angle_Rotation_6_ArtMesh2",
+			"GroupId": "ParamGroup2",
+			"Name": "[5]rambut samping kanan"
+		},
+		{
+			"Id": "Param_Angle_Rotation_7_ArtMesh2",
+			"GroupId": "ParamGroup2",
+			"Name": "[6]rambut samping kanan"
+		},
+		{
+			"Id": "Param_Angle_Rotation_8_ArtMesh2",
+			"GroupId": "ParamGroup2",
+			"Name": "[7]rambut samping kanan"
+		},
+		{
+			"Id": "Param_Angle_Rotation_9_ArtMesh2",
+			"GroupId": "ParamGroup2",
+			"Name": "[8]rambut samping kanan"
+		},
+		{
+			"Id": "Param_Angle_Rotation_10_ArtMesh2",
+			"GroupId": "ParamGroup2",
+			"Name": "[9]rambut samping kanan"
+		},
+		{
+			"Id": "Param_Angle_Rotation_11_ArtMesh2",
+			"GroupId": "ParamGroup2",
+			"Name": "[10]rambut samping kanan"
+		},
+		{
+			"Id": "Param_Angle_Rotation_12_ArtMesh2",
+			"GroupId": "ParamGroup2",
+			"Name": "[11]rambut samping kanan"
+		},
+		{
+			"Id": "Param_Angle_Rotation_13_ArtMesh2",
+			"GroupId": "ParamGroup2",
+			"Name": "[12]rambut samping kanan"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamGroup",
+			"GroupId": "",
+			"Name": "rambut samping kiri"
+		},
+		{
+			"Id": "ParamGroup2",
+			"GroupId": "",
+			"Name": "rambut samping kanan"
+		}
+	],
+	"Parts": [
+		{
+			"Id": "topi",
+			"Name": "topi"
+		},
+		{
+			"Id": "Part2",
+			"Name": "rambut samping kiri"
+		},
+		{
+			"Id": "poni",
+			"Name": "poni"
+		},
+		{
+			"Id": "Part3",
+			"Name": "rambut samping kanan"
+		},
+		{
+			"Id": "ponytail",
+			"Name": "ponytail"
+		},
+		{
+			"Id": "Part4",
+			"Name": "pita leher"
+		},
+		{
+			"Id": "Part5",
+			"Name": "tubuh atas"
+		},
+		{
+			"Id": "dada",
+			"Name": "dada"
+		},
+		{
+			"Id": "Part",
+			"Name": "tangan kiri"
+		},
+		{
+			"Id": "Part6",
+			"Name": "tangan kanan"
+		},
+		{
+			"Id": "belt",
+			"Name": "belt"
+		},
+		{
+			"Id": "Part7",
+			"Name": "tubuh bawah"
+		},
+		{
+			"Id": "alis",
+			"Name": "alis"
+		},
+		{
+			"Id": "Part15",
+			"Name": "cheek"
+		},
+		{
+			"Id": "Part8",
+			"Name": "mata kanan"
+		},
+		{
+			"Id": "Part10",
+			"Name": "mata kiri"
+		},
+		{
+			"Id": "muka",
+			"Name": "muka"
+		},
+		{
+			"Id": "leher",
+			"Name": "leher"
+		},
+		{
+			"Id": "Part12",
+			"Name": "rambut belakang"
+		},
+		{
+			"Id": "anting",
+			"Name": "anting"
+		},
+		{
+			"Id": "Part13",
+			"Name": "pita belakang(2)"
+		},
+		{
+			"Id": "Part14",
+			"Name": "pita belakang"
+		},
+		{
+			"Id": "ArtMesh1_Skinning",
+			"Name": "rambut samping kiri(Skinning)"
+		},
+		{
+			"Id": "Part16",
+			"Name": "rambut samping kiri(Rotation)"
+		},
+		{
+			"Id": "ArtMesh2_Skinning",
+			"Name": "rambut samping kanan(Skinning)"
+		},
+		{
+			"Id": "Part17",
+			"Name": "rambut samping kanan(Rotation)"
+		},
+		{
+			"Id": "Part9",
+			"Name": "eyeball R"
+		},
+		{
+			"Id": "Part11",
+			"Name": "eyeball L"
+		},
+		{
+			"Id": "telinga",
+			"Name": "telinga"
+		}
+	]
+}

@@ -175,7 +175,7 @@ window.onload = function () {
 
 				models.forEach(function(model){
 					model.position = new PIXI.Point(width * model.pos_x, height * model.pos_y);
-					model.scale = new PIXI.Point(width * 0.25, width * 0.25);
+					model.scale = new PIXI.Point(width * 0.35, width * 0.35);
 					model.masks.resize(app.view.width, app.view.height);
 				});
 

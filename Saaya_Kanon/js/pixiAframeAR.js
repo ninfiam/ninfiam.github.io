@@ -25,13 +25,13 @@ window.onload = function () {
 			var animation = LIVE2DCUBISMFRAMEWORK.Animation;
 			var override = LIVE2DCUBISMFRAMEWORK.BuiltinAnimationBlenders.OVERRIDE;
 			motions.push(animation.fromMotion3Json(resources['motion2'].data));
-			motions.push(animation.fromMotion3Json(resources['motion3'].data));
-			motions.push(animation.fromMotion3Json(resources['motion4'].data));
-			motions.push(animation.fromMotion3Json(resources['motion5'].data));
-			motions.push(animation.fromMotion3Json(resources['motion6'].data));
-			motions.push(animation.fromMotion3Json(resources['motion7'].data));
-			motions.push(animation.fromMotion3Json(resources['motion8'].data));
-			motions.push(animation.fromMotion3Json(resources['motion9'].data));
+//			motions.push(animation.fromMotion3Json(resources['motion3'].data));
+//			motions.push(animation.fromMotion3Json(resources['motion4'].data));
+//			motions.push(animation.fromMotion3Json(resources['motion5'].data));
+//			motions.push(animation.fromMotion3Json(resources['motion6'].data));
+//			motions.push(animation.fromMotion3Json(resources['motion7'].data));
+//			motions.push(animation.fromMotion3Json(resources['motion8'].data));
+//			motions.push(animation.fromMotion3Json(resources['motion9'].data));
 			model.motions = motions;
 			model.animator.addLayer("motion", override, 1);
 			//ランダムでモーション再生

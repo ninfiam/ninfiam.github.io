@@ -1,0 +1,27 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "saayakanon.moc3",
+		"Textures": [
+			"saayakanon.512/texture_00.png"
+		],
+		"DisplayInfo": "saayakanon.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen",
+				"ParamEyeLOK",
+				"ParamEyeOK"
+			]
+		}
+	]
+}

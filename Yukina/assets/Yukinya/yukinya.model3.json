@@ -3,7 +3,7 @@
 	"FileReferences": {
 		"Moc": "yukinya.moc3",
 		"Textures": [
-			"yukinya.512/texture_00.png"
+			"yukinya.1024/texture_00.png"
 		],
 		"Physics": "yukinya.physics3.json",
 		"DisplayInfo": "yukinya.cdi3.json"

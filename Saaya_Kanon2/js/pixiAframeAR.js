@@ -140,8 +140,8 @@ window.onload = function () {
 		var plane = document.createElement('a-plane');
 		plane.setAttribute('plane', '');
 		plane.setAttribute('color', '#000');
-		plane.setAttribute('height', '3');
-		plane.setAttribute('width', '3');
+		plane.setAttribute('height', '6');
+		plane.setAttribute('width', '6');
 		//マーカーを基準にしたモデルの相対位置
 		plane.setAttribute('position', '1.5 0 -0.5');
 		var stand = stand_mode ? '0 0 0' : '-10 0 0';

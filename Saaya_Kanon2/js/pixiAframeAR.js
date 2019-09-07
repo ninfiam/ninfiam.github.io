@@ -144,7 +144,7 @@ window.onload = function () {
 		plane.setAttribute('width', '6');
 		//マーカーを基準にしたモデルの相対位置
 		plane.setAttribute('position', '0 0 -0.5');
-		var stand = stand_mode ? '0 0 0' : '-10 0 0';
+		var stand = stand_mode ? '0 0 0' : '135 0 0';
 		plane.setAttribute('rotation', stand);
 		marker.appendChild(plane);
 

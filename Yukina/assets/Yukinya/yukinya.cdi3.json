@@ -1,0 +1,727 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "",
+			"Name": "Angle X"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "",
+			"Name": "Angle Y"
+		},
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "",
+			"Name": "Angle Z"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "",
+			"Name": "EyeL Open"
+		},
+		{
+			"Id": "ParamEyeLSmile",
+			"GroupId": "",
+			"Name": "EyeL Smile"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "",
+			"Name": "EyeR Open"
+		},
+		{
+			"Id": "ParamEyeRSmile",
+			"GroupId": "",
+			"Name": "EyeR Smile"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "",
+			"Name": "Eyeball X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "",
+			"Name": "Eyeball Y"
+		},
+		{
+			"Id": "ParamHighlightK",
+			"GroupId": "",
+			"Name": "HighlightKiraKira"
+		},
+		{
+			"Id": "ParamHighlightY",
+			"GroupId": "",
+			"Name": "HighlightY"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "",
+			"Name": "BrowL Y"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "",
+			"Name": "BrowR Y"
+		},
+		{
+			"Id": "ParamBrowLX",
+			"GroupId": "",
+			"Name": "BrowL X"
+		},
+		{
+			"Id": "ParamBrowRX",
+			"GroupId": "",
+			"Name": "BrowR X"
+		},
+		{
+			"Id": "ParamBrowLAngle",
+			"GroupId": "",
+			"Name": "BrowL Angle"
+		},
+		{
+			"Id": "ParamBrowRAngle",
+			"GroupId": "",
+			"Name": "BrowR Angle"
+		},
+		{
+			"Id": "ParamBrowLForm",
+			"GroupId": "",
+			"Name": "BrowL Form"
+		},
+		{
+			"Id": "ParamBrowRForm",
+			"GroupId": "",
+			"Name": "BrowR Form"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "",
+			"Name": "Mouth Form"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "Mouth Open"
+		},
+		{
+			"Id": "ParamCheek",
+			"GroupId": "",
+			"Name": "Cheek"
+		},
+		{
+			"Id": "ParamBodyAngleX",
+			"GroupId": "",
+			"Name": "Body X"
+		},
+		{
+			"Id": "ParamBodyAngleY",
+			"GroupId": "",
+			"Name": "Body Y"
+		},
+		{
+			"Id": "ParamBodyAngleZ",
+			"GroupId": "",
+			"Name": "Body Z"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "",
+			"Name": "Breathing"
+		},
+		{
+			"Id": "ParamHairFront",
+			"GroupId": "",
+			"Name": "Hair Move Front"
+		},
+		{
+			"Id": "ParamHairSide",
+			"GroupId": "",
+			"Name": "Hair Move Side"
+		},
+		{
+			"Id": "ParamHairBack",
+			"GroupId": "",
+			"Name": "Hair Move Back"
+		},
+		{
+			"Id": "Param",
+			"GroupId": "",
+			"Name": "butterfly"
+		},
+		{
+			"Id": "ParamArmR",
+			"GroupId": "",
+			"Name": "ArmR"
+		},
+		{
+			"Id": "ParamArmR2",
+			"GroupId": "",
+			"Name": "ArmR2"
+		},
+		{
+			"Id": "ParamArmL",
+			"GroupId": "",
+			"Name": "ArmL"
+		},
+		{
+			"Id": "ParamArmL2",
+			"GroupId": "",
+			"Name": "ArmL2"
+		},
+		{
+			"Id": "ParamFR",
+			"GroupId": "",
+			"Name": "FingersR"
+		},
+		{
+			"Id": "ParamFL",
+			"GroupId": "",
+			"Name": "FingersL"
+		},
+		{
+			"Id": "Paramribbon",
+			"GroupId": "",
+			"Name": "ribbon"
+		},
+		{
+			"Id": "ParamCatEar",
+			"GroupId": "ParamGroup",
+			"Name": "cat ears"
+		},
+		{
+			"Id": "ParamCatL",
+			"GroupId": "ParamGroup",
+			"Name": "cat lying"
+		},
+		{
+			"Id": "ParamCatS",
+			"GroupId": "ParamGroup",
+			"Name": "cat stretch"
+		},
+		{
+			"Id": "ParamCatB",
+			"GroupId": "ParamGroup",
+			"Name": "cat breath"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh22",
+			"GroupId": "ParamGroup2",
+			"Name": "[0]hair side2"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_ArtMesh22",
+			"GroupId": "ParamGroup2",
+			"Name": "[1]hair side2"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_ArtMesh22",
+			"GroupId": "ParamGroup2",
+			"Name": "[2]hair side2"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_ArtMesh22",
+			"GroupId": "ParamGroup2",
+			"Name": "[3]hair side2"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_ArtMesh22",
+			"GroupId": "ParamGroup2",
+			"Name": "[4]hair side2"
+		},
+		{
+			"Id": "Param_Angle_Rotation_6_ArtMesh22",
+			"GroupId": "ParamGroup2",
+			"Name": "[5]hair side2"
+		},
+		{
+			"Id": "Param_Angle_Rotation_7_ArtMesh22",
+			"GroupId": "ParamGroup2",
+			"Name": "[6]hair side2"
+		},
+		{
+			"Id": "Param_Angle_Rotation_8_ArtMesh22",
+			"GroupId": "ParamGroup2",
+			"Name": "[7]hair side2"
+		},
+		{
+			"Id": "Param_Angle_Rotation_9_ArtMesh22",
+			"GroupId": "ParamGroup2",
+			"Name": "[8]hair side2"
+		},
+		{
+			"Id": "Param_Angle_Rotation_10_ArtMesh22",
+			"GroupId": "ParamGroup2",
+			"Name": "[9]hair side2"
+		},
+		{
+			"Id": "Param_Angle_Rotation_11_ArtMesh22",
+			"GroupId": "ParamGroup2",
+			"Name": "[10]hair side2"
+		},
+		{
+			"Id": "Param_Angle_Rotation_12_ArtMesh22",
+			"GroupId": "ParamGroup2",
+			"Name": "[11]hair side2"
+		},
+		{
+			"Id": "Param_Angle_Rotation_13_ArtMesh22",
+			"GroupId": "ParamGroup2",
+			"Name": "[12]hair side2"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh2",
+			"GroupId": "ParamGroup3",
+			"Name": "[0]hair side1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_ArtMesh2",
+			"GroupId": "ParamGroup3",
+			"Name": "[1]hair side1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_ArtMesh2",
+			"GroupId": "ParamGroup3",
+			"Name": "[2]hair side1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_ArtMesh2",
+			"GroupId": "ParamGroup3",
+			"Name": "[3]hair side1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_ArtMesh2",
+			"GroupId": "ParamGroup3",
+			"Name": "[4]hair side1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_6_ArtMesh2",
+			"GroupId": "ParamGroup3",
+			"Name": "[5]hair side1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_7_ArtMesh2",
+			"GroupId": "ParamGroup3",
+			"Name": "[6]hair side1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_8_ArtMesh2",
+			"GroupId": "ParamGroup3",
+			"Name": "[7]hair side1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_9_ArtMesh2",
+			"GroupId": "ParamGroup3",
+			"Name": "[8]hair side1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_10_ArtMesh2",
+			"GroupId": "ParamGroup3",
+			"Name": "[9]hair side1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_11_ArtMesh2",
+			"GroupId": "ParamGroup3",
+			"Name": "[10]hair side1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_12_ArtMesh2",
+			"GroupId": "ParamGroup3",
+			"Name": "[11]hair side1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_13_ArtMesh2",
+			"GroupId": "ParamGroup3",
+			"Name": "[12]hair side1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh25",
+			"GroupId": "ParamGroup4",
+			"Name": "[0]hair b1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_ArtMesh25",
+			"GroupId": "ParamGroup4",
+			"Name": "[1]hair b1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_ArtMesh25",
+			"GroupId": "ParamGroup4",
+			"Name": "[2]hair b1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_ArtMesh25",
+			"GroupId": "ParamGroup4",
+			"Name": "[3]hair b1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_ArtMesh25",
+			"GroupId": "ParamGroup4",
+			"Name": "[4]hair b1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_6_ArtMesh25",
+			"GroupId": "ParamGroup4",
+			"Name": "[5]hair b1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_7_ArtMesh25",
+			"GroupId": "ParamGroup4",
+			"Name": "[6]hair b1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_8_ArtMesh25",
+			"GroupId": "ParamGroup4",
+			"Name": "[7]hair b1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_9_ArtMesh25",
+			"GroupId": "ParamGroup4",
+			"Name": "[8]hair b1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_10_ArtMesh25",
+			"GroupId": "ParamGroup4",
+			"Name": "[9]hair b1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_11_ArtMesh25",
+			"GroupId": "ParamGroup4",
+			"Name": "[10]hair b1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_12_ArtMesh25",
+			"GroupId": "ParamGroup4",
+			"Name": "[11]hair b1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_13_ArtMesh25",
+			"GroupId": "ParamGroup4",
+			"Name": "[12]hair b1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_14_ArtMesh25",
+			"GroupId": "ParamGroup4",
+			"Name": "[13]hair b1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_15_ArtMesh25",
+			"GroupId": "ParamGroup4",
+			"Name": "[14]hair b1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_16_ArtMesh25",
+			"GroupId": "ParamGroup4",
+			"Name": "[15]hair b1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_17_ArtMesh25",
+			"GroupId": "ParamGroup4",
+			"Name": "[16]hair b1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_18_ArtMesh25",
+			"GroupId": "ParamGroup4",
+			"Name": "[17]hair b1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_19_ArtMesh25",
+			"GroupId": "ParamGroup4",
+			"Name": "[18]hair b1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_20_ArtMesh25",
+			"GroupId": "ParamGroup4",
+			"Name": "[19]hair b1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_21_ArtMesh25",
+			"GroupId": "ParamGroup4",
+			"Name": "[20]hair b1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh26",
+			"GroupId": "ParamGroup5",
+			"Name": "[0]hair b2"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_ArtMesh26",
+			"GroupId": "ParamGroup5",
+			"Name": "[1]hair b2"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_ArtMesh26",
+			"GroupId": "ParamGroup5",
+			"Name": "[2]hair b2"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_ArtMesh26",
+			"GroupId": "ParamGroup5",
+			"Name": "[3]hair b2"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_ArtMesh26",
+			"GroupId": "ParamGroup5",
+			"Name": "[4]hair b2"
+		},
+		{
+			"Id": "Param_Angle_Rotation_6_ArtMesh26",
+			"GroupId": "ParamGroup5",
+			"Name": "[5]hair b2"
+		},
+		{
+			"Id": "Param_Angle_Rotation_7_ArtMesh26",
+			"GroupId": "ParamGroup5",
+			"Name": "[6]hair b2"
+		},
+		{
+			"Id": "Param_Angle_Rotation_8_ArtMesh26",
+			"GroupId": "ParamGroup5",
+			"Name": "[7]hair b2"
+		},
+		{
+			"Id": "Param_Angle_Rotation_9_ArtMesh26",
+			"GroupId": "ParamGroup5",
+			"Name": "[8]hair b2"
+		},
+		{
+			"Id": "Param_Angle_Rotation_10_ArtMesh26",
+			"GroupId": "ParamGroup5",
+			"Name": "[9]hair b2"
+		},
+		{
+			"Id": "Param_Angle_Rotation_11_ArtMesh26",
+			"GroupId": "ParamGroup5",
+			"Name": "[10]hair b2"
+		},
+		{
+			"Id": "Param_Angle_Rotation_12_ArtMesh26",
+			"GroupId": "ParamGroup5",
+			"Name": "[11]hair b2"
+		},
+		{
+			"Id": "Param_Angle_Rotation_13_ArtMesh26",
+			"GroupId": "ParamGroup5",
+			"Name": "[12]hair b2"
+		},
+		{
+			"Id": "Param_Angle_Rotation_14_ArtMesh26",
+			"GroupId": "ParamGroup5",
+			"Name": "[13]hair b2"
+		},
+		{
+			"Id": "Param_Angle_Rotation_15_ArtMesh26",
+			"GroupId": "ParamGroup5",
+			"Name": "[14]hair b2"
+		},
+		{
+			"Id": "Param_Angle_Rotation_16_ArtMesh26",
+			"GroupId": "ParamGroup5",
+			"Name": "[15]hair b2"
+		},
+		{
+			"Id": "Param_Angle_Rotation_17_ArtMesh26",
+			"GroupId": "ParamGroup5",
+			"Name": "[16]hair b2"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh27",
+			"GroupId": "ParamGroup6",
+			"Name": "[0]hair b3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_ArtMesh27",
+			"GroupId": "ParamGroup6",
+			"Name": "[1]hair b3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_ArtMesh27",
+			"GroupId": "ParamGroup6",
+			"Name": "[2]hair b3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_ArtMesh27",
+			"GroupId": "ParamGroup6",
+			"Name": "[3]hair b3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_ArtMesh27",
+			"GroupId": "ParamGroup6",
+			"Name": "[4]hair b3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_6_ArtMesh27",
+			"GroupId": "ParamGroup6",
+			"Name": "[5]hair b3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_7_ArtMesh27",
+			"GroupId": "ParamGroup6",
+			"Name": "[6]hair b3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_8_ArtMesh27",
+			"GroupId": "ParamGroup6",
+			"Name": "[7]hair b3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_9_ArtMesh27",
+			"GroupId": "ParamGroup6",
+			"Name": "[8]hair b3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_10_ArtMesh27",
+			"GroupId": "ParamGroup6",
+			"Name": "[9]hair b3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_11_ArtMesh27",
+			"GroupId": "ParamGroup6",
+			"Name": "[10]hair b3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_12_ArtMesh27",
+			"GroupId": "ParamGroup6",
+			"Name": "[11]hair b3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_13_ArtMesh27",
+			"GroupId": "ParamGroup6",
+			"Name": "[12]hair b3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_14_ArtMesh27",
+			"GroupId": "ParamGroup6",
+			"Name": "[13]hair b3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_15_ArtMesh27",
+			"GroupId": "ParamGroup6",
+			"Name": "[14]hair b3"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamGroup",
+			"GroupId": "",
+			"Name": "catto"
+		},
+		{
+			"Id": "ParamGroup2",
+			"GroupId": "",
+			"Name": "hair side2"
+		},
+		{
+			"Id": "ParamGroup3",
+			"GroupId": "",
+			"Name": "hair side1"
+		},
+		{
+			"Id": "ParamGroup4",
+			"GroupId": "",
+			"Name": "hair b1"
+		},
+		{
+			"Id": "ParamGroup5",
+			"GroupId": "",
+			"Name": "hair b2"
+		},
+		{
+			"Id": "ParamGroup6",
+			"GroupId": "",
+			"Name": "hair b3"
+		}
+	],
+	"Parts": [
+		{
+			"Id": "Part",
+			"Name": "meng stretch"
+		},
+		{
+			"Id": "Part2",
+			"Name": "meng main"
+		},
+		{
+			"Id": "Part3",
+			"Name": "meng abu"
+		},
+		{
+			"Id": "yukina",
+			"Name": "yukina"
+		},
+		{
+			"Id": "Part4",
+			"Name": "hair acc"
+		},
+		{
+			"Id": "Part5",
+			"Name": "hair s1"
+		},
+		{
+			"Id": "Part6",
+			"Name": "hair f"
+		},
+		{
+			"Id": "ear",
+			"Name": "ear"
+		},
+		{
+			"Id": "eyeR",
+			"Name": "eyeR"
+		},
+		{
+			"Id": "eyeL",
+			"Name": "eyeL"
+		},
+		{
+			"Id": "face",
+			"Name": "face"
+		},
+		{
+			"Id": "armR2",
+			"Name": "armR2"
+		},
+		{
+			"Id": "Part7",
+			"Name": "hair s2"
+		},
+		{
+			"Id": "neck",
+			"Name": "neck"
+		},
+		{
+			"Id": "Part8",
+			"Name": "arm L"
+		},
+		{
+			"Id": "body",
+			"Name": "body"
+		},
+		{
+			"Id": "armR",
+			"Name": "armR"
+		},
+		{
+			"Id": "Part9",
+			"Name": "hair b"
+		},
+		{
+			"Id": "ArtMesh2_Skinning",
+			"Name": "hair side1(Skinning)"
+		},
+		{
+			"Id": "Part11",
+			"Name": "hair side1(Rotation)"
+		},
+		{
+			"Id": "ArtMesh22_Skinning",
+			"Name": "hair side2(Skinning)"
+		},
+		{
+			"Id": "Part10",
+			"Name": "hair side2(Rotation)"
+		}
+	]
+}

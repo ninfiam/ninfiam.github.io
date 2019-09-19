@@ -1,0 +1,23 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "chibinakko.moc3",
+		"Textures": [
+			"chibinakko.1024/texture_00.png"
+		],
+		"Physics": "chibinakko.physics3.json",
+		"DisplayInfo": "chibinakko.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	]
+}

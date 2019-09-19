@@ -1,0 +1,499 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "",
+			"Name": "Angle X"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "",
+			"Name": "Angle Y"
+		},
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "",
+			"Name": "Angle Z"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "",
+			"Name": "EyeL Open"
+		},
+		{
+			"Id": "ParamEyeLSmile",
+			"GroupId": "",
+			"Name": "EyeL Smile"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "",
+			"Name": "EyeR Open"
+		},
+		{
+			"Id": "ParamEyeRSmile",
+			"GroupId": "",
+			"Name": "EyeR Smile"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "",
+			"Name": "Eyeball X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "",
+			"Name": "Eyeball Y"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "",
+			"Name": "BrowL Y"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "",
+			"Name": "BrowR Y"
+		},
+		{
+			"Id": "ParamBrowLX",
+			"GroupId": "",
+			"Name": "BrowL X"
+		},
+		{
+			"Id": "ParamBrowRX",
+			"GroupId": "",
+			"Name": "BrowR X"
+		},
+		{
+			"Id": "ParamBrowLAngle",
+			"GroupId": "",
+			"Name": "BrowL Angle"
+		},
+		{
+			"Id": "ParamBrowRAngle",
+			"GroupId": "",
+			"Name": "BrowR Angle"
+		},
+		{
+			"Id": "ParamBrowLForm",
+			"GroupId": "",
+			"Name": "BrowL Form"
+		},
+		{
+			"Id": "ParamBrowRForm",
+			"GroupId": "",
+			"Name": "BrowR Form"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "",
+			"Name": "Mouth Form"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "Mouth Open"
+		},
+		{
+			"Id": "ParamCheek",
+			"GroupId": "",
+			"Name": "Cheek"
+		},
+		{
+			"Id": "ParamBodyAngleX",
+			"GroupId": "",
+			"Name": "Body X"
+		},
+		{
+			"Id": "ParamBodyAngleY",
+			"GroupId": "",
+			"Name": "Body Y"
+		},
+		{
+			"Id": "ParamBodyAngleZ",
+			"GroupId": "",
+			"Name": "Body Z"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "",
+			"Name": "Breathing"
+		},
+		{
+			"Id": "ParamHairFront",
+			"GroupId": "",
+			"Name": "Hair Move Front"
+		},
+		{
+			"Id": "ParamHairSide",
+			"GroupId": "",
+			"Name": "Hair Move Side"
+		},
+		{
+			"Id": "ParamHairBack",
+			"GroupId": "",
+			"Name": "Hair Move Back"
+		},
+		{
+			"Id": "Paramrok",
+			"GroupId": "",
+			"Name": "rok"
+		},
+		{
+			"Id": "Paramlengankiri",
+			"GroupId": "",
+			"Name": "lengan kiri"
+		},
+		{
+			"Id": "Paramlengankiri2",
+			"GroupId": "",
+			"Name": "lengankiri2"
+		},
+		{
+			"Id": "Paramlengankanan",
+			"GroupId": "",
+			"Name": "lengankanan"
+		},
+		{
+			"Id": "Paramlengankanan2",
+			"GroupId": "",
+			"Name": "lengankanan2"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_sideL",
+			"GroupId": "ParamGroup",
+			"Name": "[0]sideL"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_sideL",
+			"GroupId": "ParamGroup",
+			"Name": "[1]sideL"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_sideL",
+			"GroupId": "ParamGroup",
+			"Name": "[2]sideL"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_sideL",
+			"GroupId": "ParamGroup",
+			"Name": "[3]sideL"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_sideL",
+			"GroupId": "ParamGroup",
+			"Name": "[4]sideL"
+		},
+		{
+			"Id": "Param_Angle_Rotation_6_sideL",
+			"GroupId": "ParamGroup",
+			"Name": "[5]sideL"
+		},
+		{
+			"Id": "Param_Angle_Rotation_7_sideL",
+			"GroupId": "ParamGroup",
+			"Name": "[6]sideL"
+		},
+		{
+			"Id": "Param_Angle_Rotation_8_sideL",
+			"GroupId": "ParamGroup",
+			"Name": "[7]sideL"
+		},
+		{
+			"Id": "Param_Angle_Rotation_9_sideL",
+			"GroupId": "ParamGroup",
+			"Name": "[8]sideL"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_sideR",
+			"GroupId": "ParamGroup2",
+			"Name": "[0]sideR"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_sideR",
+			"GroupId": "ParamGroup2",
+			"Name": "[1]sideR"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_sideR",
+			"GroupId": "ParamGroup2",
+			"Name": "[2]sideR"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_sideR",
+			"GroupId": "ParamGroup2",
+			"Name": "[3]sideR"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_sideR",
+			"GroupId": "ParamGroup2",
+			"Name": "[4]sideR"
+		},
+		{
+			"Id": "Param_Angle_Rotation_6_sideR",
+			"GroupId": "ParamGroup2",
+			"Name": "[5]sideR"
+		},
+		{
+			"Id": "Param_Angle_Rotation_7_sideR",
+			"GroupId": "ParamGroup2",
+			"Name": "[6]sideR"
+		},
+		{
+			"Id": "Param_Angle_Rotation_8_sideR",
+			"GroupId": "ParamGroup2",
+			"Name": "[7]sideR"
+		},
+		{
+			"Id": "Param_Angle_Rotation_9_sideR",
+			"GroupId": "ParamGroup2",
+			"Name": "[8]sideR"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_Layer33",
+			"GroupId": "ParamGroup3",
+			"Name": "[0]Layer33"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_Layer33",
+			"GroupId": "ParamGroup3",
+			"Name": "[1]Layer33"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_Layer33",
+			"GroupId": "ParamGroup3",
+			"Name": "[2]Layer33"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_Layer33",
+			"GroupId": "ParamGroup3",
+			"Name": "[3]Layer33"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_Layer33",
+			"GroupId": "ParamGroup3",
+			"Name": "[4]Layer33"
+		},
+		{
+			"Id": "Param_Angle_Rotation_6_Layer33",
+			"GroupId": "ParamGroup3",
+			"Name": "[5]Layer33"
+		},
+		{
+			"Id": "Param_Angle_Rotation_7_Layer33",
+			"GroupId": "ParamGroup3",
+			"Name": "[6]Layer33"
+		},
+		{
+			"Id": "Param_Angle_Rotation_8_Layer33",
+			"GroupId": "ParamGroup3",
+			"Name": "[7]Layer33"
+		},
+		{
+			"Id": "Param_Angle_Rotation_9_Layer33",
+			"GroupId": "ParamGroup3",
+			"Name": "[8]Layer33"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_Layer32",
+			"GroupId": "ParamGroup4",
+			"Name": "[0]Layer32"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_Layer32",
+			"GroupId": "ParamGroup4",
+			"Name": "[1]Layer32"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_Layer32",
+			"GroupId": "ParamGroup4",
+			"Name": "[2]Layer32"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_Layer32",
+			"GroupId": "ParamGroup4",
+			"Name": "[3]Layer32"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_Layer32",
+			"GroupId": "ParamGroup4",
+			"Name": "[4]Layer32"
+		},
+		{
+			"Id": "Param_Angle_Rotation_6_Layer32",
+			"GroupId": "ParamGroup4",
+			"Name": "[5]Layer32"
+		},
+		{
+			"Id": "Param_Angle_Rotation_7_Layer32",
+			"GroupId": "ParamGroup4",
+			"Name": "[6]Layer32"
+		},
+		{
+			"Id": "Param_Angle_Rotation_8_Layer32",
+			"GroupId": "ParamGroup4",
+			"Name": "[7]Layer32"
+		},
+		{
+			"Id": "Param_Angle_Rotation_9_Layer32",
+			"GroupId": "ParamGroup4",
+			"Name": "[8]Layer32"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh7",
+			"GroupId": "ParamGroup5",
+			"Name": "[0]Layer29(2)"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_ArtMesh7",
+			"GroupId": "ParamGroup5",
+			"Name": "[1]Layer29(2)"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_ArtMesh7",
+			"GroupId": "ParamGroup5",
+			"Name": "[2]Layer29(2)"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_ArtMesh7",
+			"GroupId": "ParamGroup5",
+			"Name": "[3]Layer29(2)"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_ArtMesh7",
+			"GroupId": "ParamGroup5",
+			"Name": "[4]Layer29(2)"
+		},
+		{
+			"Id": "Param_Angle_Rotation_6_ArtMesh7",
+			"GroupId": "ParamGroup5",
+			"Name": "[5]Layer29(2)"
+		},
+		{
+			"Id": "Param_Angle_Rotation_7_ArtMesh7",
+			"GroupId": "ParamGroup5",
+			"Name": "[6]Layer29(2)"
+		},
+		{
+			"Id": "Param_Angle_Rotation_8_ArtMesh7",
+			"GroupId": "ParamGroup5",
+			"Name": "[7]Layer29(2)"
+		},
+		{
+			"Id": "Param_Angle_Rotation_9_ArtMesh7",
+			"GroupId": "ParamGroup5",
+			"Name": "[8]Layer29(2)"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamGroup",
+			"GroupId": "",
+			"Name": "sideL"
+		},
+		{
+			"Id": "ParamGroup2",
+			"GroupId": "",
+			"Name": "sideR"
+		},
+		{
+			"Id": "ParamGroup3",
+			"GroupId": "",
+			"Name": "Layer33"
+		},
+		{
+			"Id": "ParamGroup4",
+			"GroupId": "",
+			"Name": "Layer32"
+		},
+		{
+			"Id": "ParamGroup5",
+			"GroupId": "",
+			"Name": "Layer29(2)"
+		}
+	],
+	"Parts": [
+		{
+			"Id": "Part",
+			"Name": "Folder1(2)"
+		},
+		{
+			"Id": "Folder1",
+			"Name": "Folder1"
+		},
+		{
+			"Id": "poni",
+			"Name": "poni"
+		},
+		{
+			"Id": "muka",
+			"Name": "muka"
+		},
+		{
+			"Id": "badan",
+			"Name": "badan"
+		},
+		{
+			"Id": "Part2",
+			"Name": "lengan(2)"
+		},
+		{
+			"Id": "lengan",
+			"Name": "lengan"
+		},
+		{
+			"Id": "kaki",
+			"Name": "kaki"
+		},
+		{
+			"Id": "Part3",
+			"Name": "rambut belakang"
+		},
+		{
+			"Id": "twintail",
+			"Name": "twintail"
+		},
+		{
+			"Id": "sideL_Skinning",
+			"Name": "sideL(Skinning)"
+		},
+		{
+			"Id": "Part4",
+			"Name": "sideL(Rotation)"
+		},
+		{
+			"Id": "sideR_Skinning",
+			"Name": "sideR(Skinning)"
+		},
+		{
+			"Id": "Part5",
+			"Name": "sideR(Rotation)"
+		},
+		{
+			"Id": "ArtMesh7_Skinning",
+			"Name": "Layer29(2)(Skinning)"
+		},
+		{
+			"Id": "Part8",
+			"Name": "Layer29(2)(Rotation)"
+		},
+		{
+			"Id": "Layer33_Skinning",
+			"Name": "Layer33(Skinning)"
+		},
+		{
+			"Id": "Part6",
+			"Name": "Layer33(Rotation)"
+		},
+		{
+			"Id": "Layer32_Skinning",
+			"Name": "Layer32(Skinning)"
+		},
+		{
+			"Id": "Part7",
+			"Name": "Layer32(Rotation)"
+		}
+	]
+}

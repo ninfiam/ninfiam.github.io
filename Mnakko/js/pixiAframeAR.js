@@ -50,7 +50,7 @@ window.onload = function () {
 			model.animator.getLayer("gaze").play(gaze_motion);
 
 			//視線追従モーションのパラメータ値更新
-/*			model.gaze = new THREE.Vector3();
+			model.gaze = new THREE.Vector3();
 			var ids = model.parameters.ids;
 			var angle_x = Math.max(ids.indexOf("ParamAngleX"), ids.indexOf("PARAM_ANGLE_X"));
 			var angle_y = Math.max(ids.indexOf("ParamAngleY"), ids.indexOf("PARAM_ANGLE_Y"));
@@ -69,7 +69,7 @@ window.onload = function () {
 				values[angle_y] = blend(values[angle_y], model.gaze.y * angle_v, 0, weight);
 				values[eye_x] = blend(values[eye_x], model.gaze.x * eye_h, 0, weight);
 				values[eye_y] = blend(values[eye_y], model.gaze.y * eye_v, 0, weight);
-*/			}
+			}
 
 			//キャンバス内のモデルの位置
 			model.pos_x = x;

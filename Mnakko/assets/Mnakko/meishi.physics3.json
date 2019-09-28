@@ -3,7 +3,7 @@
 	"Meta": {
 		"PhysicsSettingCount": 12,
 		"TotalInputCount": 48,
-		"TotalOutputCount": 154,
+		"TotalOutputCount": 118,
 		"VertexCount": 123,
 		"EffectiveForces": {
 			"Gravity": {
@@ -22,47 +22,47 @@
 			},
 			{
 				"Id": "PhysicsSetting2",
-				"Name": "twinR"
-			},
-			{
-				"Id": "PhysicsSetting3",
 				"Name": "twinL"
 			},
 			{
+				"Id": "PhysicsSetting3",
+				"Name": "twinR"
+			},
+			{
 				"Id": "PhysicsSetting4",
-				"Name": "rb1"
+				"Name": "sideL"
 			},
 			{
 				"Id": "PhysicsSetting5",
-				"Name": "rb3"
-			},
-			{
-				"Id": "PhysicsSetting6",
-				"Name": "rb2"
-			},
-			{
-				"Id": "PhysicsSetting7",
-				"Name": "rb4"
-			},
-			{
-				"Id": "PhysicsSetting8",
-				"Name": "rb5"
-			},
-			{
-				"Id": "PhysicsSetting9",
-				"Name": "rb6"
-			},
-			{
-				"Id": "PhysicsSetting10",
-				"Name": "rb7"
-			},
-			{
-				"Id": "PhysicsSetting11",
 				"Name": "sideR"
 			},
 			{
+				"Id": "PhysicsSetting6",
+				"Name": "rb1"
+			},
+			{
+				"Id": "PhysicsSetting7",
+				"Name": "rb3"
+			},
+			{
+				"Id": "PhysicsSetting8",
+				"Name": "rb2"
+			},
+			{
+				"Id": "PhysicsSetting9",
+				"Name": "rb4"
+			},
+			{
+				"Id": "PhysicsSetting10",
+				"Name": "rb5"
+			},
+			{
+				"Id": "PhysicsSetting11",
+				"Name": "rb7"
+			},
+			{
 				"Id": "PhysicsSetting12",
-				"Name": "sideL"
+				"Name": "rb6"
 			}
 		]
 	},
@@ -114,7 +114,7 @@
 						"Id": "ParamHairFront"
 					},
 					"VertexIndex": 1,
-					"Scale": 2,
+					"Scale": 1,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -199,10 +199,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_1_twintailR2"
+						"Id": "Param_Angle_Rotation_1_twintailL2"
 					},
 					"VertexIndex": 1,
-					"Scale": 15,
+					"Scale": 5,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -210,10 +210,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_2_twintailR2"
+						"Id": "Param_Angle_Rotation_2_twintailL2"
 					},
 					"VertexIndex": 2,
-					"Scale": 15,
+					"Scale": 5,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -221,7 +221,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_3_twintailR2"
+						"Id": "Param_Angle_Rotation_3_twintailL2"
 					},
 					"VertexIndex": 3,
 					"Scale": 15,
@@ -232,7 +232,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_4_twintailR2"
+						"Id": "Param_Angle_Rotation_4_twintailL2"
 					},
 					"VertexIndex": 4,
 					"Scale": 15,
@@ -243,7 +243,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_5_twintailR2"
+						"Id": "Param_Angle_Rotation_5_twintailL2"
 					},
 					"VertexIndex": 5,
 					"Scale": 15,
@@ -254,10 +254,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_6_twintailR2"
+						"Id": "Param_Angle_Rotation_6_twintailL2"
 					},
 					"VertexIndex": 6,
-					"Scale": 25,
+					"Scale": 15,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -265,7 +265,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_7_twintailR2"
+						"Id": "Param_Angle_Rotation_7_twintailL2"
 					},
 					"VertexIndex": 7,
 					"Scale": 25,
@@ -276,7 +276,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_8_twintailR2"
+						"Id": "Param_Angle_Rotation_8_twintailL2"
 					},
 					"VertexIndex": 8,
 					"Scale": 25,
@@ -287,7 +287,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_9_twintailR2"
+						"Id": "Param_Angle_Rotation_9_twintailL2"
 					},
 					"VertexIndex": 9,
 					"Scale": 25,
@@ -298,10 +298,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_10_twintailR2"
+						"Id": "Param_Angle_Rotation_10_twintailL2"
 					},
 					"VertexIndex": 10,
-					"Scale": 35,
+					"Scale": 25,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -309,32 +309,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_11_twintailR2"
+						"Id": "Param_Angle_Rotation_11_twintailL2"
 					},
 					"VertexIndex": 10,
-					"Scale": 35,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_12_twintailR2"
-					},
-					"VertexIndex": 10,
-					"Scale": 35,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_13_twintailR2"
-					},
-					"VertexIndex": 10,
-					"Scale": 50,
+					"Scale": 25,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -509,7 +487,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_1_twintailL2"
+						"Id": "Param_Angle_Rotation_1_twintailR2"
 					},
 					"VertexIndex": 1,
 					"Scale": 5,
@@ -520,10 +498,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_2_twintailL2"
+						"Id": "Param_Angle_Rotation_2_twintailR2"
 					},
 					"VertexIndex": 2,
-					"Scale": 15,
+					"Scale": 5,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -531,7 +509,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_3_twintailL2"
+						"Id": "Param_Angle_Rotation_3_twintailR2"
 					},
 					"VertexIndex": 3,
 					"Scale": 15,
@@ -542,7 +520,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_4_twintailL2"
+						"Id": "Param_Angle_Rotation_4_twintailR2"
 					},
 					"VertexIndex": 4,
 					"Scale": 15,
@@ -553,7 +531,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_5_twintailL2"
+						"Id": "Param_Angle_Rotation_5_twintailR2"
 					},
 					"VertexIndex": 5,
 					"Scale": 15,
@@ -564,9 +542,20 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_6_twintailL2"
+						"Id": "Param_Angle_Rotation_6_twintailR2"
 					},
 					"VertexIndex": 6,
+					"Scale": 15,
+					"Weight": 100,
+					"Type": "Angle",
+					"Reflect": false
+				},
+				{
+					"Destination": {
+						"Target": "Parameter",
+						"Id": "Param_Angle_Rotation_7_twintailR2"
+					},
+					"VertexIndex": 7,
 					"Scale": 25,
 					"Weight": 100,
 					"Type": "Angle",
@@ -575,18 +564,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_7_twintailL2"
-					},
-					"VertexIndex": 7,
-					"Scale": 22,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_8_twintailL2"
+						"Id": "Param_Angle_Rotation_8_twintailR2"
 					},
 					"VertexIndex": 8,
 					"Scale": 25,
@@ -597,97 +575,9 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_9_twintailL2"
+						"Id": "Param_Angle_Rotation_9_twintailR2"
 					},
 					"VertexIndex": 9,
-					"Scale": 25,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_10_twintailL2"
-					},
-					"VertexIndex": 10,
-					"Scale": 25,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_11_twintailL2"
-					},
-					"VertexIndex": 10,
-					"Scale": 25,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_12_twintailL2"
-					},
-					"VertexIndex": 10,
-					"Scale": 25,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_13_twintailL2"
-					},
-					"VertexIndex": 10,
-					"Scale": 25,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_14_twintailL2"
-					},
-					"VertexIndex": 10,
-					"Scale": 25,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_15_twintailL2"
-					},
-					"VertexIndex": 10,
-					"Scale": 25,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_16_twintailL2"
-					},
-					"VertexIndex": 10,
-					"Scale": 25,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_17_twintailL2"
-					},
-					"VertexIndex": 10,
 					"Scale": 25,
 					"Weight": 100,
 					"Type": "Angle",
@@ -863,10 +753,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_1_rb1"
+						"Id": "Param_Angle_Rotation_1_sideL2"
 					},
 					"VertexIndex": 1,
-					"Scale": 15,
+					"Scale": 1,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -874,10 +764,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_2_rb1"
+						"Id": "Param_Angle_Rotation_2_sideL2"
 					},
 					"VertexIndex": 2,
-					"Scale": 15,
+					"Scale": 1,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -885,10 +775,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_3_rb1"
+						"Id": "Param_Angle_Rotation_3_sideL2"
 					},
 					"VertexIndex": 3,
-					"Scale": 15,
+					"Scale": 1,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -896,10 +786,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_4_rb1"
+						"Id": "Param_Angle_Rotation_4_sideL2"
 					},
 					"VertexIndex": 4,
-					"Scale": 15,
+					"Scale": 5,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -907,7 +797,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_5_rb1"
+						"Id": "Param_Angle_Rotation_5_sideL2"
 					},
 					"VertexIndex": 5,
 					"Scale": 15,
@@ -918,10 +808,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_6_rb1"
+						"Id": "Param_Angle_Rotation_6_sideL2"
 					},
 					"VertexIndex": 6,
-					"Scale": 25,
+					"Scale": 15,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -929,10 +819,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_7_rb1"
+						"Id": "Param_Angle_Rotation_7_sideL2"
 					},
 					"VertexIndex": 7,
-					"Scale": 25,
+					"Scale": 15,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -940,10 +830,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_8_rb1"
+						"Id": "Param_Angle_Rotation_8_sideL2"
 					},
 					"VertexIndex": 8,
-					"Scale": 25,
+					"Scale": 15,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -951,7 +841,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_9_rb1"
+						"Id": "Param_Angle_Rotation_9_sideL2"
 					},
 					"VertexIndex": 9,
 					"Scale": 25,
@@ -962,7 +852,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_10_rb1"
+						"Id": "Param_Angle_Rotation_10_sideL2"
 					},
 					"VertexIndex": 10,
 					"Scale": 25,
@@ -973,73 +863,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_11_rb1"
-					},
-					"VertexIndex": 10,
-					"Scale": 25,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_12_rb1"
-					},
-					"VertexIndex": 10,
-					"Scale": 25,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_13_rb1"
-					},
-					"VertexIndex": 10,
-					"Scale": 25,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_14_rb1"
-					},
-					"VertexIndex": 10,
-					"Scale": 25,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_15_rb1"
-					},
-					"VertexIndex": 10,
-					"Scale": 25,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_16_rb1"
-					},
-					"VertexIndex": 10,
-					"Scale": 25,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_17_rb1"
+						"Id": "Param_Angle_Rotation_11_sideL2"
 					},
 					"VertexIndex": 10,
 					"Scale": 25,
@@ -1217,10 +1041,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_1_rb3"
+						"Id": "Param_Angle_Rotation_1_sideR2"
 					},
 					"VertexIndex": 1,
-					"Scale": 15,
+					"Scale": 1,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -1228,10 +1052,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_2_rb3"
+						"Id": "Param_Angle_Rotation_2_sideR2"
 					},
 					"VertexIndex": 2,
-					"Scale": 15,
+					"Scale": 1,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -1239,10 +1063,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_3_rb3"
+						"Id": "Param_Angle_Rotation_3_sideR2"
 					},
 					"VertexIndex": 3,
-					"Scale": 15,
+					"Scale": 5,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -1250,10 +1074,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_4_rb3"
+						"Id": "Param_Angle_Rotation_4_sideR2"
 					},
 					"VertexIndex": 4,
-					"Scale": 15,
+					"Scale": 5,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -1261,9 +1085,20 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_5_rb3"
+						"Id": "Param_Angle_Rotation_5_sideR2"
 					},
 					"VertexIndex": 5,
+					"Scale": 5,
+					"Weight": 100,
+					"Type": "Angle",
+					"Reflect": false
+				},
+				{
+					"Destination": {
+						"Target": "Parameter",
+						"Id": "Param_Angle_Rotation_6_sideR2"
+					},
+					"VertexIndex": 6,
 					"Scale": 15,
 					"Weight": 100,
 					"Type": "Angle",
@@ -1272,21 +1107,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_6_rb3"
-					},
-					"VertexIndex": 6,
-					"Scale": 25,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_7_rb3"
+						"Id": "Param_Angle_Rotation_7_sideR2"
 					},
 					"VertexIndex": 7,
-					"Scale": 25,
+					"Scale": 15,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -1294,10 +1118,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_8_rb3"
+						"Id": "Param_Angle_Rotation_8_sideR2"
 					},
 					"VertexIndex": 8,
-					"Scale": 25,
+					"Scale": 15,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -1305,7 +1129,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_9_rb3"
+						"Id": "Param_Angle_Rotation_9_sideR2"
 					},
 					"VertexIndex": 9,
 					"Scale": 25,
@@ -1316,7 +1140,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_10_rb3"
+						"Id": "Param_Angle_Rotation_10_sideR2"
 					},
 					"VertexIndex": 10,
 					"Scale": 25,
@@ -1327,51 +1151,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_11_rb3"
-					},
-					"VertexIndex": 10,
-					"Scale": 25,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_12_rb3"
-					},
-					"VertexIndex": 10,
-					"Scale": 25,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_13_rb3"
-					},
-					"VertexIndex": 10,
-					"Scale": 25,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_14_rb3"
-					},
-					"VertexIndex": 10,
-					"Scale": 25,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_15_rb3"
+						"Id": "Param_Angle_Rotation_11_sideR2"
 					},
 					"VertexIndex": 10,
 					"Scale": 25,
@@ -1549,10 +1329,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_1_rb2"
+						"Id": "Param_Angle_Rotation_1_rb1"
 					},
 					"VertexIndex": 1,
-					"Scale": 15,
+					"Scale": 5,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -1560,10 +1340,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_2_rb2"
+						"Id": "Param_Angle_Rotation_2_rb1"
 					},
 					"VertexIndex": 2,
-					"Scale": 15,
+					"Scale": 5,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -1571,10 +1351,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_3_rb2"
+						"Id": "Param_Angle_Rotation_3_rb1"
 					},
 					"VertexIndex": 3,
-					"Scale": 15,
+					"Scale": 5,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -1582,7 +1362,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_4_rb2"
+						"Id": "Param_Angle_Rotation_4_rb1"
 					},
 					"VertexIndex": 4,
 					"Scale": 15,
@@ -1593,10 +1373,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_5_rb2"
+						"Id": "Param_Angle_Rotation_5_rb1"
 					},
 					"VertexIndex": 5,
-					"Scale": 25,
+					"Scale": 15,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -1604,10 +1384,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_6_rb2"
+						"Id": "Param_Angle_Rotation_6_rb1"
 					},
 					"VertexIndex": 6,
-					"Scale": 25,
+					"Scale": 15,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -1615,10 +1395,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_7_rb2"
+						"Id": "Param_Angle_Rotation_7_rb1"
 					},
 					"VertexIndex": 7,
-					"Scale": 25,
+					"Scale": 15,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -1626,7 +1406,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_8_rb2"
+						"Id": "Param_Angle_Rotation_8_rb1"
 					},
 					"VertexIndex": 8,
 					"Scale": 25,
@@ -1637,7 +1417,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_9_rb2"
+						"Id": "Param_Angle_Rotation_9_rb1"
 					},
 					"VertexIndex": 9,
 					"Scale": 25,
@@ -1648,10 +1428,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_10_rb2"
+						"Id": "Param_Angle_Rotation_10_rb1"
 					},
 					"VertexIndex": 10,
-					"Scale": 25,
+					"Scale": 1,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -1659,32 +1439,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_11_rb2"
+						"Id": "Param_Angle_Rotation_11_rb1"
 					},
 					"VertexIndex": 10,
-					"Scale": 25,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_12_rb2"
-					},
-					"VertexIndex": 10,
-					"Scale": 25,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_13_rb2"
-					},
-					"VertexIndex": 10,
-					"Scale": 25,
+					"Scale": 35,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -1859,10 +1617,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_1_rb4"
+						"Id": "Param_Angle_Rotation_1_rb3"
 					},
 					"VertexIndex": 1,
-					"Scale": 15,
+					"Scale": 5,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -1870,10 +1628,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_2_rb4"
+						"Id": "Param_Angle_Rotation_2_rb3"
 					},
 					"VertexIndex": 2,
-					"Scale": 15,
+					"Scale": 5,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -1881,10 +1639,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_3_rb4"
+						"Id": "Param_Angle_Rotation_3_rb3"
 					},
 					"VertexIndex": 3,
-					"Scale": 15,
+					"Scale": 5,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -1892,9 +1650,31 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_4_rb4"
+						"Id": "Param_Angle_Rotation_4_rb3"
 					},
 					"VertexIndex": 4,
+					"Scale": 5,
+					"Weight": 100,
+					"Type": "Angle",
+					"Reflect": false
+				},
+				{
+					"Destination": {
+						"Target": "Parameter",
+						"Id": "Param_Angle_Rotation_5_rb3"
+					},
+					"VertexIndex": 5,
+					"Scale": 5,
+					"Weight": 100,
+					"Type": "Angle",
+					"Reflect": false
+				},
+				{
+					"Destination": {
+						"Target": "Parameter",
+						"Id": "Param_Angle_Rotation_6_rb3"
+					},
+					"VertexIndex": 6,
 					"Scale": 15,
 					"Weight": 100,
 					"Type": "Angle",
@@ -1903,32 +1683,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_5_rb4"
-					},
-					"VertexIndex": 5,
-					"Scale": 25,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_6_rb4"
-					},
-					"VertexIndex": 6,
-					"Scale": 25,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_7_rb4"
+						"Id": "Param_Angle_Rotation_7_rb3"
 					},
 					"VertexIndex": 7,
-					"Scale": 25,
+					"Scale": 15,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -1936,7 +1694,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_8_rb4"
+						"Id": "Param_Angle_Rotation_8_rb3"
 					},
 					"VertexIndex": 8,
 					"Scale": 25,
@@ -1947,54 +1705,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_9_rb4"
+						"Id": "Param_Angle_Rotation_9_rb3"
 					},
 					"VertexIndex": 9,
-					"Scale": 25,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_10_rb4"
-					},
-					"VertexIndex": 10,
-					"Scale": 25,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_11_rb4"
-					},
-					"VertexIndex": 10,
-					"Scale": 25,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_12_rb4"
-					},
-					"VertexIndex": 10,
-					"Scale": 25,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_13_rb4"
-					},
-					"VertexIndex": 10,
-					"Scale": 1,
+					"Scale": 35,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -2169,10 +1883,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_1_rb5"
+						"Id": "Param_Angle_Rotation_1_rb2"
 					},
 					"VertexIndex": 1,
-					"Scale": 15,
+					"Scale": 5,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -2180,10 +1894,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_2_rb5"
+						"Id": "Param_Angle_Rotation_2_rb2"
 					},
 					"VertexIndex": 2,
-					"Scale": 15,
+					"Scale": 5,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -2191,7 +1905,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_3_rb5"
+						"Id": "Param_Angle_Rotation_3_rb2"
 					},
 					"VertexIndex": 3,
 					"Scale": 15,
@@ -2202,7 +1916,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_4_rb5"
+						"Id": "Param_Angle_Rotation_4_rb2"
 					},
 					"VertexIndex": 4,
 					"Scale": 15,
@@ -2213,10 +1927,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_5_rb5"
+						"Id": "Param_Angle_Rotation_5_rb2"
 					},
 					"VertexIndex": 5,
-					"Scale": 25,
+					"Scale": 15,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -2224,7 +1938,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_6_rb5"
+						"Id": "Param_Angle_Rotation_6_rb2"
 					},
 					"VertexIndex": 6,
 					"Scale": 25,
@@ -2235,7 +1949,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_7_rb5"
+						"Id": "Param_Angle_Rotation_7_rb2"
 					},
 					"VertexIndex": 7,
 					"Scale": 25,
@@ -2246,10 +1960,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_8_rb5"
+						"Id": "Param_Angle_Rotation_8_rb2"
 					},
 					"VertexIndex": 8,
-					"Scale": 25,
+					"Scale": 35,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -2257,98 +1971,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_9_rb5"
+						"Id": "Param_Angle_Rotation_9_rb2"
 					},
 					"VertexIndex": 9,
-					"Scale": 25,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_10_rb5"
-					},
-					"VertexIndex": 10,
-					"Scale": 25,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_11_rb5"
-					},
-					"VertexIndex": 10,
-					"Scale": 25,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_12_rb5"
-					},
-					"VertexIndex": 10,
-					"Scale": 25,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_13_rb5"
-					},
-					"VertexIndex": 10,
-					"Scale": 25,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_14_rb5"
-					},
-					"VertexIndex": 10,
-					"Scale": 25,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_15_rb5"
-					},
-					"VertexIndex": 10,
-					"Scale": 25,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_16_rb5"
-					},
-					"VertexIndex": 10,
-					"Scale": 25,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_17_rb5"
-					},
-					"VertexIndex": 10,
-					"Scale": 1,
+					"Scale": 35,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -2523,10 +2149,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_1_rb6"
+						"Id": "Param_Angle_Rotation_1_rb4"
 					},
 					"VertexIndex": 1,
-					"Scale": 1,
+					"Scale": 5,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -2534,10 +2160,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_2_rb6"
+						"Id": "Param_Angle_Rotation_2_rb4"
 					},
 					"VertexIndex": 2,
-					"Scale": 1,
+					"Scale": 5,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -2545,10 +2171,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_3_rb6"
+						"Id": "Param_Angle_Rotation_3_rb4"
 					},
 					"VertexIndex": 3,
-					"Scale": 1,
+					"Scale": 5,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -2556,7 +2182,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_4_rb6"
+						"Id": "Param_Angle_Rotation_4_rb4"
 					},
 					"VertexIndex": 4,
 					"Scale": 15,
@@ -2567,10 +2193,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_5_rb6"
+						"Id": "Param_Angle_Rotation_5_rb4"
 					},
 					"VertexIndex": 5,
-					"Scale": 25,
+					"Scale": 15,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -2578,10 +2204,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_6_rb6"
+						"Id": "Param_Angle_Rotation_6_rb4"
 					},
 					"VertexIndex": 6,
-					"Scale": 25,
+					"Scale": 15,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -2589,7 +2215,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_7_rb6"
+						"Id": "Param_Angle_Rotation_7_rb4"
 					},
 					"VertexIndex": 7,
 					"Scale": 25,
@@ -2600,7 +2226,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_8_rb6"
+						"Id": "Param_Angle_Rotation_8_rb4"
 					},
 					"VertexIndex": 8,
 					"Scale": 25,
@@ -2611,7 +2237,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_9_rb6"
+						"Id": "Param_Angle_Rotation_9_rb4"
 					},
 					"VertexIndex": 9,
 					"Scale": 25,
@@ -2622,10 +2248,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_10_rb6"
+						"Id": "Param_Angle_Rotation_10_rb4"
 					},
 					"VertexIndex": 10,
-					"Scale": 25,
+					"Scale": 35,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -2633,10 +2259,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_11_rb6"
+						"Id": "Param_Angle_Rotation_11_rb4"
 					},
 					"VertexIndex": 10,
-					"Scale": 25,
+					"Scale": 35,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -2811,10 +2437,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_1_rb7"
+						"Id": "Param_Angle_Rotation_1_rb5"
 					},
 					"VertexIndex": 1,
-					"Scale": 1,
+					"Scale": 5,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -2822,10 +2448,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_2_rb7"
+						"Id": "Param_Angle_Rotation_2_rb5"
 					},
 					"VertexIndex": 2,
-					"Scale": 1,
+					"Scale": 5,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -2833,10 +2459,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_3_rb7"
+						"Id": "Param_Angle_Rotation_3_rb5"
 					},
 					"VertexIndex": 3,
-					"Scale": 1,
+					"Scale": 5,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -2844,7 +2470,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_4_rb7"
+						"Id": "Param_Angle_Rotation_4_rb5"
 					},
 					"VertexIndex": 4,
 					"Scale": 15,
@@ -2855,7 +2481,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_5_rb7"
+						"Id": "Param_Angle_Rotation_5_rb5"
 					},
 					"VertexIndex": 5,
 					"Scale": 15,
@@ -2866,10 +2492,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_6_rb7"
+						"Id": "Param_Angle_Rotation_6_rb5"
 					},
 					"VertexIndex": 6,
-					"Scale": 25,
+					"Scale": 15,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -2877,10 +2503,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_7_rb7"
+						"Id": "Param_Angle_Rotation_7_rb5"
 					},
 					"VertexIndex": 7,
-					"Scale": 25,
+					"Scale": 15,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -2888,7 +2514,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_8_rb7"
+						"Id": "Param_Angle_Rotation_8_rb5"
 					},
 					"VertexIndex": 8,
 					"Scale": 25,
@@ -2899,7 +2525,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_9_rb7"
+						"Id": "Param_Angle_Rotation_9_rb5"
 					},
 					"VertexIndex": 9,
 					"Scale": 25,
@@ -2910,10 +2536,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_10_rb7"
+						"Id": "Param_Angle_Rotation_10_rb5"
 					},
 					"VertexIndex": 10,
-					"Scale": 25,
+					"Scale": 35,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -2921,10 +2547,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_11_rb7"
+						"Id": "Param_Angle_Rotation_11_rb5"
 					},
 					"VertexIndex": 10,
-					"Scale": 1,
+					"Scale": 35,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -3099,10 +2725,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_1_sideR2"
+						"Id": "Param_Angle_Rotation_1_rb7"
 					},
 					"VertexIndex": 1,
-					"Scale": 4,
+					"Scale": 5,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -3110,7 +2736,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_2_sideR2"
+						"Id": "Param_Angle_Rotation_2_rb7"
 					},
 					"VertexIndex": 2,
 					"Scale": 5,
@@ -3121,7 +2747,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_3_sideR2"
+						"Id": "Param_Angle_Rotation_3_rb7"
 					},
 					"VertexIndex": 3,
 					"Scale": 5,
@@ -3132,7 +2758,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_4_sideR2"
+						"Id": "Param_Angle_Rotation_4_rb7"
 					},
 					"VertexIndex": 4,
 					"Scale": 15,
@@ -3143,7 +2769,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_5_sideR2"
+						"Id": "Param_Angle_Rotation_5_rb7"
 					},
 					"VertexIndex": 5,
 					"Scale": 15,
@@ -3154,7 +2780,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_6_sideR2"
+						"Id": "Param_Angle_Rotation_6_rb7"
 					},
 					"VertexIndex": 6,
 					"Scale": 15,
@@ -3165,10 +2791,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_7_sideR2"
+						"Id": "Param_Angle_Rotation_7_rb7"
 					},
 					"VertexIndex": 7,
-					"Scale": 25,
+					"Scale": 15,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -3176,10 +2802,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_8_sideR2"
+						"Id": "Param_Angle_Rotation_8_rb7"
 					},
 					"VertexIndex": 8,
-					"Scale": 25,
+					"Scale": 15,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -3187,7 +2813,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_9_sideR2"
+						"Id": "Param_Angle_Rotation_9_rb7"
 					},
 					"VertexIndex": 9,
 					"Scale": 25,
@@ -3198,7 +2824,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_10_sideR2"
+						"Id": "Param_Angle_Rotation_10_rb7"
 					},
 					"VertexIndex": 10,
 					"Scale": 25,
@@ -3209,7 +2835,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_11_sideR2"
+						"Id": "Param_Angle_Rotation_11_rb7"
 					},
 					"VertexIndex": 10,
 					"Scale": 25,
@@ -3220,10 +2846,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_12_sideR2"
+						"Id": "Param_Angle_Rotation_12_rb7"
 					},
 					"VertexIndex": 10,
-					"Scale": 25,
+					"Scale": 35,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -3231,10 +2857,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_13_sideR2"
+						"Id": "Param_Angle_Rotation_13_rb7"
 					},
 					"VertexIndex": 10,
-					"Scale": 25,
+					"Scale": 35,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -3409,7 +3035,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_1_sideL2"
+						"Id": "Param_Angle_Rotation_1_rb6"
 					},
 					"VertexIndex": 1,
 					"Scale": 5,
@@ -3420,7 +3046,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_2_sideL2"
+						"Id": "Param_Angle_Rotation_2_rb6"
 					},
 					"VertexIndex": 2,
 					"Scale": 5,
@@ -3431,7 +3057,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_3_sideL2"
+						"Id": "Param_Angle_Rotation_3_rb6"
 					},
 					"VertexIndex": 3,
 					"Scale": 5,
@@ -3442,7 +3068,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_4_sideL2"
+						"Id": "Param_Angle_Rotation_4_rb6"
 					},
 					"VertexIndex": 4,
 					"Scale": 15,
@@ -3453,7 +3079,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_5_sideL2"
+						"Id": "Param_Angle_Rotation_5_rb6"
 					},
 					"VertexIndex": 5,
 					"Scale": 15,
@@ -3464,7 +3090,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_6_sideL2"
+						"Id": "Param_Angle_Rotation_6_rb6"
 					},
 					"VertexIndex": 6,
 					"Scale": 15,
@@ -3475,7 +3101,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_7_sideL2"
+						"Id": "Param_Angle_Rotation_7_rb6"
 					},
 					"VertexIndex": 7,
 					"Scale": 15,
@@ -3486,7 +3112,7 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_8_sideL2"
+						"Id": "Param_Angle_Rotation_8_rb6"
 					},
 					"VertexIndex": 8,
 					"Scale": 25,
@@ -3497,10 +3123,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_9_sideL2"
+						"Id": "Param_Angle_Rotation_9_rb6"
 					},
 					"VertexIndex": 9,
-					"Scale": 25,
+					"Scale": 25.001,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -3508,10 +3134,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_10_sideL2"
+						"Id": "Param_Angle_Rotation_10_rb6"
 					},
 					"VertexIndex": 10,
-					"Scale": 25,
+					"Scale": 35,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false
@@ -3519,32 +3145,10 @@
 				{
 					"Destination": {
 						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_11_sideL2"
+						"Id": "Param_Angle_Rotation_11_rb6"
 					},
 					"VertexIndex": 10,
-					"Scale": 25,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_12_sideL2"
-					},
-					"VertexIndex": 10,
-					"Scale": 1,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": false
-				},
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "Param_Angle_Rotation_13_sideL2"
-					},
-					"VertexIndex": 10,
-					"Scale": 25,
+					"Scale": 35,
 					"Weight": 100,
 					"Type": "Angle",
 					"Reflect": false

@@ -3,7 +3,7 @@
 	"FileReferences": {
 		"Moc": "meishi.moc3",
 		"Textures": [
-			"meishi.512/texture_00.png"
+			"meishi.1024/texture_00.png"
 		],
 		"Physics": "meishi.physics3.json",
 		"DisplayInfo": "meishi.cdi3.json"
@@ -11,12 +11,12 @@
 	"Groups": [
 		{
 			"Target": "Parameter",
-			"Name": "EyeBlink",
+			"Name": "LipSync",
 			"Ids": []
 		},
 		{
 			"Target": "Parameter",
-			"Name": "LipSync",
+			"Name": "EyeBlink",
 			"Ids": []
 		}
 	]

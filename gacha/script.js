@@ -48,7 +48,7 @@ function clickVid(){
 }
 
 function nextVid() {
-  if (j < 5){
+  if (j < 6){
     j++;
   } else {
 	j = 0;

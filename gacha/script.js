@@ -3,7 +3,7 @@ var audio = document.getElementById("playAudio");
 var videoSource = new Array(5);
 
 for (var i = 0; i < videoSource.length; i++) { 
-    videoSource[i] = new Array(5); 
+    videoSource[i] = new Array(6); 
 }
 
 for (var i = 0; i < 5; i++) { 
@@ -31,7 +31,7 @@ function playBGM(){
 }
 
 function playVid(){
-  if((j == 1) || (j == 3) || (j == 4)){
+  if((j == 2) || (j == 5)){
 	video.loop = 1;
   } else {
     video.loop = 0;
@@ -48,7 +48,7 @@ function clickVid(){
 }
 
 function nextVid() {
-  if (j < 4){
+  if (j < 5){
     j++;
   } else {
 	j = 0;

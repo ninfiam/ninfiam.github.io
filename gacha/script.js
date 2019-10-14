@@ -42,7 +42,7 @@ function playVid(){
 }
 
 function clickVid(){
-  var clickSound = new Audio("audio/click.mp3");
+  var clickSound = new Audio("audio/click.wav");
   clickSound.play();
   nextVid();
 }

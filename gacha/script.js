@@ -16,7 +16,7 @@ i = 0;
 j = 0;
 
 video.addEventListener('ended', videoHandler, false);
-audio.addEventListener('ended', audiohandler, false);
+//audio.addEventListener('ended', audiohandler, false);
 playBGM("audio/gacha1.mp3");
 playVid();
 

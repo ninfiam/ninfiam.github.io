@@ -15,17 +15,25 @@ for (var i = 0; i < 5; i++) {
 i = 0;
 j = 0;
 
-video.addEventListener('ended', handler, false);
+video.addEventListener('ended', videoHandler, false);
+audio.addEventListener('ended', audiohandler, false);
 playBGM();
 playVid();
 
-function handler() {
+function videoHandler() {
   nextVid();
   playVid();
 }
 
+function audioHandler(){
+  audio.src = "audio/bgm2.mp3";
+  audio.loop = 1;
+  audio.load();
+  audio.play();
+}
+
 function playBGM(){
-  audio.src = "audio/bgm.mp3"
+  audio.src = "audio/bgm.mp3";
   audio.load();
   audio.play();
 }

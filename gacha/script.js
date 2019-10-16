@@ -28,7 +28,6 @@ function videoHandler() {
 
 function audioHandler() {
   playBGM("audio/gacha2.mp3");
-  audio.loop = 1;
 }
 
 function playBGM(bgm){

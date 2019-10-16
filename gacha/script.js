@@ -27,6 +27,7 @@ function videoHandler() {
 
 function playBGM(bgm){
   audio.src = bgm;
+  audio.loop = 1;
   audio.load();
   audio.play();
 }

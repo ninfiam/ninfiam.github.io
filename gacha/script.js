@@ -16,7 +16,7 @@ i = 0;
 j = 0;
 
 video.addEventListener('ended', videoHandler, false);
-audio.addEventListener('ended', audioHandler, false);
+//audio.addEventListener('ended', audioHandler, false);
 playBGM("audio/gacha1.mp3");
 playVid();
 
@@ -26,11 +26,11 @@ function videoHandler() {
 }
 
 function audioHandler(){
-  audio.loop = 1;
   playBGM("audio/gacha2.mp3");
 }
 
 function playBGM(bgm){
+  audio.loop = 1;
   audio.src = bgm;
   audio.load();
   audio.play();

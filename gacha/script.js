@@ -26,14 +26,14 @@ function videoHandler() {
 }
 
 function audioHandler(){
-  audio.src = "audio/bgm2.mp3";
+  audio.src = "audio/gacha2.wav";
   audio.loop = 1;
   audio.load();
   audio.play();
 }
 
 function playBGM(){
-  audio.src = "audio/bgm.mp3";
+  audio.src = "audio/gacha1.wav";
   audio.load();
   audio.play();
 }

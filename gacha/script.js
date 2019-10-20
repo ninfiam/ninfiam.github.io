@@ -3,11 +3,11 @@ var audio = document.getElementById("playAudio");
 var videoSource = new Array(6);
 
 for (var i = 0; i < videoSource.length; i++) { 
-    videoSource[i] = new Array(5); 
+    videoSource[i] = new Array(6); 
 }
 
 for (var i = 0; i < 6; i++) { 
-    for (var j = 0; j < 5; j++) { 
+    for (var j = 0; j < 6; j++) { 
         videoSource[i][j] = "video/" + (i+1) + "-" + (j+1) + ".mp4";
     } 
 } 
@@ -54,7 +54,7 @@ function clickVid(){
 }
 
 function nextVid() {
-  if (j < 4){
+  if (j < 5){
     j++;
   } else {
 	j = 0;

@@ -57,12 +57,10 @@ function nextVid() {
   if (j < 5){
     j++;
   } else {
-	j = 0;
 	if (i < 5){
+	  j = 0;
 	  i++;
-    } else {
-	  i = 0;
-    }
+    	}
   }
   playVid();
 }

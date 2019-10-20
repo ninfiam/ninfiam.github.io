@@ -16,6 +16,7 @@ body {
   min-height: 100%;
 }
 
+/*
 .content {
   position: fixed;
   bottom: 0;
@@ -24,7 +25,7 @@ body {
   width: 100%;
   padding: 20px;
 }
-
+*/
 #myBtn {
   width: 200px;
   font-size: 18px;

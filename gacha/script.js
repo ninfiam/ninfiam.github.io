@@ -7,7 +7,7 @@ for (var i = 0; i < videoSource.length; i++) {
 }
 
 for (var i = 0; i < 5; i++) { 
-    for (var j = 0; j < 6; j++) { 
+    for (var j = 0; j < 7; j++) { 
         videoSource[i][j] = "video/" + (i+1) + "-" + (j+1) + ".mp4";
     } 
 } 

@@ -1,13 +1,13 @@
 var video = document.getElementById("playVideo");
 var audio = document.getElementById("playAudio");
-var videoSource = new Array(5);
+var videoSource = new Array(6);
 
 for (var i = 0; i < videoSource.length; i++) { 
-    videoSource[i] = new Array(6); 
+    videoSource[i] = new Array(5); 
 }
 
-for (var i = 0; i < 5; i++) { 
-    for (var j = 0; j < 7; j++) { 
+for (var i = 0; i < 6; i++) { 
+    for (var j = 0; j < 5; j++) { 
         videoSource[i][j] = "video/" + (i+1) + "-" + (j+1) + ".mp4";
     } 
 } 
@@ -54,11 +54,11 @@ function clickVid(){
 }
 
 function nextVid() {
-  if (j < 5){
+  if (j < 4){
     j++;
   } else {
 	j = 0;
-	if (i < 4){
+	if (i < 5){
 	  i++;
     } else {
 	  i = 0;
